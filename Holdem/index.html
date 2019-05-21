@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Simple Holdem Game</title>
+    </head>
+    <body>
+        <header>
+            <h1>Simple Holdem Game</h1>
+        </header>
+        
+<!--
+        <div class="score-board">
+            <div id="user-label" class="badge">user</div>
+            <div id="computer-label" class="badge">comp</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+-->
+        
+<!--
+        <div class="result">
+            <p>Paper covers rock. You win!</p>
+        </div>
+-->
+        
+        <div class="cards">
+            <div class="card" id="com1Card">
+                <img src="images/CardBack.jpg" alt="" id="com1Pocket1">
+                <img src="images/CardBack.jpg" alt="" id="com1Pocket2">
+            </div>
+            <div class="info" id="com1Info">
+                <div id="com1-label" class="badge">comp</div>
+                <div id="com1-chips" class="chip">100</div>
+            </div>
+        </div>
+        <div class="cards">
+            <div class="comm" id="commCard">
+                <img src="images/CardBack.jpg" alt="" id="flop1">
+                <img src="images/CardBack.jpg" alt="" id="flop2">
+                <img src="images/CardBack.jpg" alt="" id="flop3">
+                <img src="images/CardBack.jpg" alt="" id="turn">
+                <img src="images/CardBack.jpg" alt="" id="river">
+            </div>
+        </div>
+        <div class="cards">
+            <div class="card" id="userCard">
+                <img src="images/CardBack.jpg" alt="" id="userPocket1">
+                <img src="images/CardBack.jpg" alt="" id="userPocket2">
+            </div>
+            <div class="info" id="userInfo">
+                <div id="user-label" class="badge">user</div>
+                <div id="user-chips" class="chip">100</div>
+                <div id="btn_call" class="call">Call</div>
+            </div>
+        </div>
+        
+        <div class="start" id="start">
+            <img src="images/poker-1798037_640.jpg">
+        </div>
+        <script src="app.js" charset="utf-8"></script>
+    </body>
+</html>

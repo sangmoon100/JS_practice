@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #31b43a;
+    text-align: center;
+}
+
+header {
+    background: white;
+    padding: 20px;
+}
+
+header > h1 {
+    color: #24272E;
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+#user-label {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+#com1-label {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.badge {
+    background: #E25840;
+    color: white;
+    font-size: 15px;
+    font-family: Asap, sans-serif;
+}
+
+.chip {
+    background: black;
+    color: white;
+    font-size: 20px;
+    font-family: Asap, sans-serif;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    width: 50px
+}
+
+.call {
+    background: gray;
+    color: black;
+    font-size: 16px;
+    font-family: Asap, sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    width: 40px
+}
+
+.result {
+    font-size: 40px;
+    color: white;
+}
+
+.result > p {
+    text-align: center;
+    font-family: Asap, sans-serif;
+}
+
+.cards {
+    margin: 30px 0;
+}
+
+.card {
+    width: 200px;
+    height: 150px;
+    border: 4px solid white;
+    padding: 10px;
+    display: inline-flex;
+    transition: all 0.3s ease;
+}
+
+.info {
+    right: 10px;
+    width: 100px;
+    height: 150px;
+    border: 4px solid white;;
+    padding: 10px;
+    display: inline-flex;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.card > img {
+    top: 1px;
+    
+}
+
+.turn {;
+    border: 4px solid red;
+    transition: all 0.3s ease;
+}
+
+.comm {
+    width: 500px;
+    height: 150px;
+    border: 4px solid white;
+    margin: 0 20px;
+    padding: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.start > img {
+    border: 2px solid black;
+}
+
+.start > img:hover {
+    cursor: pointer;
+    border-color: red;
+}
